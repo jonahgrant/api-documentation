@@ -43,11 +43,11 @@ All requests are JSONP enabled. To use JSONP, append `callback=your_callback` to
 
 ## Resources
 
-- **<code>GET</code>  /api/v0/announcements/**](https://github.com/kippt/api-documentation/blob/master/resources/announcements.md)
-- **<code>GET</code>  /api/v0/arrivals/**](https://github.com/kippt/api-documentation/blob/master/resources/arrivals.md)
-- **<code>GET</code>  /api/v0/buses/**](https://github.com/kippt/api-documentation/blob/master/resources/buses.md)
-- **<code>GET</code>  /api/v0/routes/**](https://github.com/kippt/api-documentation/blob/master/resources/routes.md)
-- **<code>GET</code>  /api/v0/stops/**](https://github.com/kippt/api-documentation/blob/master/resources/stops.md)
+- **<code>GET</code>  /api/v0/announcements/**](https://github.com/magic-bus/api-documentation/blob/master/resources/announcements.md)
+- **<code>GET</code>  /api/v0/arrivals/**](https://github.com/magic-bus/api-documentation/blob/master/resources/arrivals.md)
+- **<code>GET</code>  /api/v0/buses/**](https://github.com/magic-bus/api-documentation/blob/master/resources/buses.md)
+- **<code>GET</code>  /api/v0/routes/**](https://github.com/magic-bus/api-documentation/blob/master/resources/routes.md)
+- **<code>GET</code>  /api/v0/stops/**](https://github.com/magic-bus/api-documentation/blob/master/resources/stops.md)
 
 
 ## Contributions
