@@ -12,6 +12,12 @@ Get all active announcements. These announcements will contain important informa
 <th>Description</th>
 <th>Default</th>
 <th>Required</th>
+<tr>
+<td>callback</td>
+<td>string</td>
+<td>The callback to wrap a JSONP object in. Including this parameter will cause the API to return JSONP.</td>
+<td>No</td>
+</tr>
 </table>
 
 ## Response Fields
