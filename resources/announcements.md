@@ -19,12 +19,24 @@ Get all active announcements. These announcements will contain important informa
 <table>
 <th>Field</th>
 <th>Description</th>
+<tr>
+<td>title</td>
+<td>The title of the service announcement</td>
+</tr>
+<tr>
+<td>text</td>
+<td>The text of the announcement</td>
+</tr>
+<tr>
+<td>color</td>
+<td>The display color in hex of the announcement text. This value is obeyed on mbus.pts.umich.edu and it is recommended that you obey it as well.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>The type of the announcement. Possible values include <code>"Status Update"</code> and <code>"Emergency Message"</code>.</td>
+</tr>
 </table>
 
-`"title"`: The title of the service announcement  
-`"text"`: The text of the announcement  
-`"color"`: The display color in hex of the announcement text. This value is obeyed on mbus.pts.umich.edu and it is recommended that you obey it as well.  
-`"type"`: The type of the announcement. Possible values include `"Status Update"` and `"Emergency Message"`.  
 
 ## Example Response
 
