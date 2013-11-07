@@ -49,7 +49,7 @@ Get all active announcements. These announcements will contain important informa
 </table>
 
 
-## Example Response
+#### Example
 
 ```json
 {
