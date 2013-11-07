@@ -16,6 +16,7 @@ Get all active announcements. These announcements will contain important informa
 <td>callback</td>
 <td>string</td>
 <td>The callback to wrap a JSONP object in. Including this parameter will cause the API to return JSONP.</td>
+<td>None (JSON response)</td>
 <td>No</td>
 </tr>
 </table>
