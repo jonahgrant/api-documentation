@@ -15,7 +15,19 @@ This method returns the bus routes operated by Magic Bus.
 <tr>
 <td>active</td><td>boolean (true/false)</td><td>Only return active routes</td><td>true</td><td>No</td>
 </tr>
+<tr>
+<td>callback</td>
+<td>string</td>
+<td>The callback to wrap a JSONP object in. Including this parameter will cause the API to return JSONP.</td>
+<td>None (JSON response)</td>
+<td>No</td>
+</tr>
 </table>
+
+#### Example
+
+[`GET` http://mbus.pts.umich.edu/api/v0/routes/?active=false&callback=process_routes](http://mbus.pts.umich.edu/api/v0/routes/?active=false&callback=process_routes)
+
 
 ## Response Fields
 
@@ -39,7 +51,7 @@ This method returns the bus routes operated by Magic Bus.
 </tr>
 </table>
 
-## Example Response
+#### Example
 
 ```json
 {

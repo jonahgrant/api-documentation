@@ -12,7 +12,19 @@ Get bus arrival times for each stop which is currently being serviced.
 <th>Description</th>
 <th>Default</th>
 <th>Required</th>
+<tr>
+<td>callback</td>
+<td>string</td>
+<td>The callback to wrap a JSONP object in. Including this parameter will cause the API to return JSONP.</td>
+<td>None (JSON response)</td>
+<td>No</td>
+</tr>
 </table>
+
+#### Example
+
+[`GET` http://mbus.pts.umich.edu/api/v0/arrivals/?callback=process_arrivals](http://mbus.pts.umich.edu/api/v0/arrivals/?callback=process_arrivals)
+
 
 ## Response Fields
 
@@ -21,7 +33,7 @@ Get bus arrival times for each stop which is currently being serviced.
 <th>Description</th>
 </table>
 
-## Example Response
+#### Example
 
 ```json
 {
