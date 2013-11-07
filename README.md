@@ -1,22 +1,15 @@
 API v0 Documentation
 ====================
 
-The Magic Bus API is available for non-commercial use by third-party developers. Commercial use is strictly prohibited.
-
 Please note that this is an early development version of the API. This version is liable to break or change at any time,
-so we do not recommended using it for any production purposes. Please [let us know](mailto:magicbus@umich.edu?subject=API Feedback) if you have any feedback.
-
-The API:
-* has no usage limits (unless you abuse it to the point that we have to implement them)
-* is in development
-* does not necessarily match this documentation. This documentation is being used as a specification during development, so not all functionality described here is necessarily implemented.
+so we do not recommended using it for any production purposes. Additionally, this documentation is being used as a specification during development, so not all functionality described here is necessarily implemented. Please [let us know](mailto:magicbus@umich.edu?subject=API Feedback) if you have any feedback.
 
 Known Issues which will be resolved before the v1 release:
-* Does not include arrival times for each stop
+* Arrivals method not yet implemented
 * Does not pretty print by default
-* Does not necessarily return accurate data
+* Does not necessarily return complete or accurate data
 
-In the future:
+Future Considerations:
 * will require developers to register with their email to receive an authentication token. This will enable us to track usage and contact developers regarding update and deprecation schedules.
 * will hopefully return gzip'd responses
 * will possibly use CORS instead of JSONP
