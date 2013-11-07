@@ -21,6 +21,10 @@ Get all active announcements. These announcements will contain important informa
 </tr>
 </table>
 
+#### Example
+
+[`GET` http://mbus.pts.umich.edu/api/v0/announcements/?callback=process_announcements](http://mbus.pts.umich.edu/api/v0/announcements/?callback=process_announcements)
+
 ## Response Fields
 
 <table>
