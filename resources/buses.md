@@ -2,7 +2,7 @@
 
 Get all buses which are currently in service.
 
-[`<code>GET</code> http://mbus.pts.umich.edu/api/v0/buses/`](http://mbus.pts.umich.edu/api/v0/buses/)
+[`GET` http://mbus.pts.umich.edu/api/v0/buses/](http://mbus.pts.umich.edu/api/v0/buses/)
 
 #### Request Parameters
 

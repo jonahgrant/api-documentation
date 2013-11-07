@@ -2,7 +2,7 @@
 
 Get all active announcements. These announcements will contain important information about service changes. It is recommended that these announcements are displayed to the user.
 
-[`<code>GET</code> http://mbus.pts.umich.edu/api/v0/announcements/`](http://mbus.pts.umich.edu/api/v0/announcements/)
+[`GET` http://mbus.pts.umich.edu/api/v0/announcements/](http://mbus.pts.umich.edu/api/v0/announcements/)
 
 ## Request Parameters
 
