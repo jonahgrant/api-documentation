@@ -1,7 +1,8 @@
 # Stops
 
-Get all stops. Active stops can be found on the client side using the `stops` array in each `route` object.  
-[`GET http://mbus.pts.umich.edu/api/v0/stops/`](http://mbus.pts.umich.edu/api/v0/stops/)
+Get all stops. Active stops can be found on the client side using the `stops` array in each `route` object.
+
+[`<code>GET</code> http://mbus.pts.umich.edu/api/v0/stops/`](http://mbus.pts.umich.edu/api/v0/stops/)
 
 ## Request Parameters
 

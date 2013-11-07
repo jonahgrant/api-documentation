@@ -2,7 +2,7 @@
 
 This method returns the bus routes operated by Magic Bus.
 
-[`GET http://mbus.pts.umich.edu/api/v0/routes/`](http://mbus.pts.umich.edu/api/v0/routes/)
+[`<code>GET</code> http://mbus.pts.umich.edu/api/v0/routes/`](http://mbus.pts.umich.edu/api/v0/routes/)
 
 ## Request Parameters
 

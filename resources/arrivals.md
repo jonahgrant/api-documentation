@@ -2,7 +2,7 @@
 
 Get bus arrival times for each stop which is currently being serviced.
 
-[`GET http://mbus.pts.umich.edu/api/v0/arrivals/`](http://mbus.pts.umich.edu/api/v0/arrivals/)
+[`<code>GET</code> http://mbus.pts.umich.edu/api/v0/arrivals/`](http://mbus.pts.umich.edu/api/v0/arrivals/)
 
 ## Request Parameters
 
