@@ -41,13 +41,16 @@ This method returns the bus routes operated by Magic Bus.
 <td>name</td><td>The route name</td>
 </tr>
 <tr>
+<td>active</td><td>True if the route is currently in operation, false if not.</td>
+</tr>
+<tr>
 <td>color</td><td>The route color, used for text, route traces, and buses on the route. You must use this color for the user to be able to identify the route by sight. <em>Do not use a different color.</em></td>
 </tr>
 <tr>
 <td>top_of_loop_stop_id</td><td>If this route is a loop, this is the ID of the stop which is at the top of the loop. This stop can be considered the start and end of the loop. If this route is not a loop, this value is `null`.</td>
 </tr>
 <tr>
-<td>stops</td><td>The list of stop IDs for all the stops which this route services, in route order.  </td>
+<td>stops</td><td>The list of stop IDs for all the stops which this route services, in route order.</td>
 </tr>
 </table>
 
@@ -59,6 +62,7 @@ This method returns the bus routes operated by Magic Bus.
       {
          "id":"0",
          "name":"Commuter Southbound",
+         "active":true,
          "color":"#0066FF",
          "stops":[
             "65",
@@ -93,6 +97,7 @@ This method returns the bus routes operated by Magic Bus.
       {
          "id":"4",
          "name":"Bursley-Baits",
+         "active":false,
          "color":"#00532d",
          "stops":[
             "10",
